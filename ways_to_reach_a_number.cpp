@@ -27,11 +27,5 @@ int main() {
         }
         cout << b[k] << endl;
     }
-    return 0;
-
-
-
-
-
-    
+    return 0;    
 }
