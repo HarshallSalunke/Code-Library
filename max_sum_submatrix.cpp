@@ -1,9 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// problem : https://www.interviewbit.com/problems/maximum-sum-square-submatrix/
-// very beautiful question
-
 int Solution::solve(vector<vector<int> > &A, int B) {
     int r = A.size(),c=A[0].size();
     vector<vector<int>>dp(r+1,vector<int>(c+1,0));
